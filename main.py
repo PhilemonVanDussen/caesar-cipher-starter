@@ -10,6 +10,6 @@ for character in user_message:
         position = alphabet.find(character)
         new_position = (position + key) % 26
         new_character = alphabet[new_position]
-        new_message += new_message 
+        new_message += new_message + new_character
 
 print("Your new message is " + new_message)
